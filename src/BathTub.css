@@ -1,0 +1,33 @@
+.container {
+  border: 3px solid blue;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tub {
+  /* border: 2px solid black; */
+  height: 100px;
+  width: 100%;
+  margin-left: 25px;
+  background-color: white;
+}
+
+.buttons{
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.levelOne {
+  border: 2px solid black;
+  height: 20px;
+  background-color: blue;
+}
+
+.level {
+  position:absolute;
+  right: 400px;
+  top: 175px;
+}
