@@ -5,29 +5,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .tub {
-  /* border: 2px solid black; */
   height: 100px;
   width: 100%;
-  margin-left: 25px;
+  margin: 25px;
   background-color: white;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
-.buttons{
-  font-size: 22px;
-  font-weight: 900;
+.btn-increase{
+  position: absolute;
+  bottom: 0;
+  left: 17%;
 }
 
-.levelOne {
+.btn-decrease {
+  position: absolute;
+  bottom: 0;
+  right: 17%;
+}
+
+
+.water {
   border: 2px solid black;
   height: 20px;
+  width: 100%;
   background-color: blue;
 }
 
 .level {
   position:absolute;
-  right: 400px;
-  top: 175px;
+  top: 75px;
 }
